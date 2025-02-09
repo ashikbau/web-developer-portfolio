@@ -52,6 +52,7 @@ color: #474747;
 }
 .text-center{
   text-align: center;
+margin-top: 30px;
 }
 /* shared styles end */
 
@@ -194,3 +195,25 @@ nav {
     margin-bottom: 20px;
   }
   /* summary resume end */
+
+  /* footer styles start*/
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+
+.footer-column{
+  width: 50%;
+}
+footer [type="text"], footer [type="email"], footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+  /* footer styles end */
